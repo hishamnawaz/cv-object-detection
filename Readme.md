@@ -58,7 +58,7 @@ steering target instead of a fixed waypoint list.
 
 ## Related project
 
-[automated-obstacle-avoider]() —
+[automated-obstacle-avoider](https://github.com/Hisham-1-Blip/automated-obstacle-avoider.git) —
 
 the Webots simulation this will eventually connect to.
 
