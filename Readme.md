@@ -1,4 +1,4 @@
-\# CV Object Detection
+# CV Object Detection
 
 
 
@@ -8,7 +8,7 @@ an Automated Object detection and avoidance robot.
 
 
 
-\## Why this is a separate repo
+## Why this is a separate repo
 
 Classical CV and object detection are being learned and tested on live
 
@@ -20,15 +20,15 @@ replace the robot's current placeholder camera code.
 
 
 
-\## Built so far
+## Built so far
 
-\- Basic webcam capture and live display loop (OpenCV, `cv2.VideoCapture`)
+- Basic webcam capture and live display loop (OpenCV, `cv2.VideoCapture`)
 
 
 
-\## In progress
+## In progress
 
-\- Classical color/contour-based object detection (`cv2.inRange`,
+- Classical color/contour-based object detection (`cv2.inRange`,
 
 &#x20; `cv2.findContours`) — the same "find a colored blob" logic already
 
@@ -36,15 +36,15 @@ replace the robot's current placeholder camera code.
 
 
 
-\## Planned
+## Planned
 
-\- Pretrained object detection (YOLO via `ultralytics`) on live webcam feed
+- Pretrained object detection (YOLO via `ultralytics`) on live webcam feed
 
-\- Optional: a small CNN trained from scratch on a custom toy dataset
+- Optional: a small CNN trained from scratch on a custom toy dataset
 
 
 
-\## Eventual integration point
+## Eventual integration point
 
 Once detection is reliable here, port the detection function into the
 
@@ -56,9 +56,9 @@ steering target instead of a fixed waypoint list.
 
 
 
-\## Related project
+## Related project
 
-\[automated-obstacle-avoider](link-to-that-repo-once-you-have-it) —
+[automated-obstacle-avoider]() —
 
 the Webots simulation this will eventually connect to.
 
