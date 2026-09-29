@@ -8,40 +8,23 @@ an Automated Object detection and avoidance robot.
 
 
 
-## Why this is a separate repo
-
-Classical CV and object detection are being learned and tested on live
-
-webcam input first, outside simulation, for fast iteration. Once the
-
-detection logic is solid, it gets ported into the Webots controller to
-
-replace the robot's current placeholder camera code.
-
-
-
 ## Built so far
 
 - Basic webcam capture and live display loop (OpenCV, `cv2.VideoCapture`)
+- Object detection in pictures has been implemented 
 
 
 
 ## In progress
 
-- Classical color/contour-based object detection (`cv2.inRange`,
-
-&#x20; `cv2.findContours`) — the same "find a colored blob" logic already
-
-&#x20; prototyped in the Webots robot's camera code, done properly here
-
-
+- Classical color/contour-based object detection (`cv2.inRange`, &#x20; `cv2.findContours`) — the same "find a colored blob" logic already.
+- Object detection from a video
+  
 
 ## Planned
 
 - Pretrained object detection (YOLO via `ultralytics`) on live webcam feed
-
-- Optional: a small CNN trained from scratch on a custom toy dataset
-
+- Fine tuning YOLOv8 by annotating for specific objects and purposes
 
 
 ## Eventual integration point
